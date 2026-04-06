@@ -1,0 +1,66 @@
+● What ECC Does After Installing                                                                                                                                
+                                                                            
+  Think of it as upgrades to Claude's brain that activate every time you use Claude Code on any project.
+                                                                                                                                                                
+  ---
+  Before ECC                                                                                                                                                    
+                                                                  
+  Claude Code is smart but generic. You tell it what to do, it figures it out on its own, using one general-purpose Claude instance for everything.
+
+  After ECC
+
+  Claude Code becomes a team of specialists. Instead of one Claude doing everything, it routes tasks to the right expert automatically.
+
+  ---
+  The 4 Main Things It Gives You
+
+  1. Specialist Agents (47 of them)
+
+  Instead of one Claude, you get dedicated experts that get called automatically:
+
+  ┌─────────────────────────────┬────────────────────────────┐
+  │       When you ask...       │        ECC calls...        │
+  ├─────────────────────────────┼────────────────────────────┤
+  │ "Review my code"            │ code-reviewer agent        │
+  ├─────────────────────────────┼────────────────────────────┤
+  │ "Plan this feature"         │ planner agent              │
+  ├─────────────────────────────┼────────────────────────────┤
+  │ "My build is broken"        │ build-error-resolver agent │
+  ├─────────────────────────────┼────────────────────────────┤
+  │ "Check for security issues" │ security-reviewer agent    │
+  ├─────────────────────────────┼────────────────────────────┤
+  │ "Review my TypeScript"      │ typescript-reviewer agent  │
+  └─────────────────────────────┴────────────────────────────┘
+
+  2. Slash Commands (79 of them)
+
+  Pre-built workflows you can trigger instantly:
+  - /plan — structured implementation planning
+  - /tdd — test-driven development workflow
+  - /code-review — full quality review
+  - /build-fix — diagnose and fix build errors
+  - /e2e — generate end-to-end tests
+
+  3. Skills (180 domain packs)
+
+  Deep knowledge packs that get loaded when relevant — React patterns, Next.js, Django, security hardening, database migrations, Git workflow, etc. Claude stops
+   guessing and uses proven patterns.
+
+  4. Automatic Hooks
+
+  Background automations that fire without you asking:
+  - Runs Prettier/formatting after every file edit
+  - Warns you before pushing to git
+  - Scans for console.log left in code
+  - Saves a session summary when you stop
+  - Runs TypeScript checks after edits
+
+  ---
+  The Short Version
+
+  Without ECC: You describe what you want → one Claude figures it out from scratch each time.
+
+  With ECC: Claude has 47 specialists, 180 domain knowledge packs, 79 ready-made workflows, and background automations — all activated automatically based on
+  what you're doing.
+
+  It's the difference between hiring a generalist and hiring a full dev team where each person is an expert in their lane.
